@@ -1,6 +1,7 @@
 // deps: "discord.js": "^14", "node-fetch": "^3"
 import { Client, GatewayIntentBits, SlashCommandBuilder, EmbedBuilder } from 'discord.js';
 import fetch from 'node-fetch';
+import 'dotenv/config';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 

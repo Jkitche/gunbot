@@ -1,0 +1,17 @@
+{
+  "name": "gunbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jkitche/gunbot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jkitche",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14",
+    "node-fetch": "^3",
+    "dotenv": "^16"
+  }
+}
