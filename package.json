@@ -4,14 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/Jkitche/gunbot",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node index.js"
   },
   "author": "Jkitche",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "discord.js": "^14",
+    "dotenv": "^16",
     "node-fetch": "^3",
-    "dotenv": "^16"
+    "typescript": "^5.9.2"
   }
 }
