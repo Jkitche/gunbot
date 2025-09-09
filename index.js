@@ -422,7 +422,6 @@ async function handleGun(i, name) {
 client.on("interactionCreate", async (i) => {
   if (!i.isChatInputCommand()) return;
   const name = i.options.getString("name", true);
-  await i.deferReply();
 
   if (i.commandName === "ping") {
     await i.reply({ content: "pong", ephemeral: true });
