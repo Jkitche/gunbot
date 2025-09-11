@@ -6,15 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy:cmds": "ts-node src/commands.ts"
   },
   "author": "Jkitche",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "discord.js": "^14",
-    "dotenv": "^16",
-    "node-fetch": "^3",
-    "typescript": "^5.9.2"
+    "discord.js": "14",
+    "dotenv": "16",
+    "node-fetch": "3",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
   }
 }
